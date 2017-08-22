@@ -6,34 +6,34 @@ if (computerChoice < 0.34) {
 	computerChoice = "papel";
 } else {
 	computerChoice = "tesoura";
-} console.log("Computer: " + computerChoice);
+} alert("Computer: " + computerChoice);
 
 var compare = function(choice1, choice2){
     if (choice1 === choice2){
-        return "Empate !";
+        alert("Empate!");
     }   
     else if (choice1 === "pedra"){
         if (choice2 ==="tesoura"){
-            return "Pedra esmaga tesoura!";
+            alert("Pedra esmaga tesoura!");
         }
         else if (choice2 === "papel"){
-            return "Papel embrulha pedra!";
+            alert("Papel embrulha pedra!");
         }
     }
     else if (choice1 === "tesoura"){
         if (choice2 === "papel"){
-            return "Tesoura corta papel";
+            alert("Tesoura corta papel");
         }
         else if (choice2 === "pedra"){
-            return "Pedra esmaga tesoura!";
+            alert("Pedra esmaga tesoura!");
         }
     }
     else if (choice1 === "papel"){
         if (choice2 === "pedra"){
-            return "Papel embrulha pedra!";
+            alert("Papel embrulha pedra!");
         }
         else if (choice2 === "tesoura"){
-            return "Tesoura corta papel!";
+            alert("Tesoura corta papel!");
         }
     }
 };
