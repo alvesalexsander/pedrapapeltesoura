@@ -1,0 +1,31 @@
+html, body{
+  margin: 0;
+  text-align: center;
+}
+
+.main{
+  max-width: 720px;
+  background-color: #FFF;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main img{
+  display: block;
+  border: 3px solid #000;
+  border-radius: 3px;
+  margin-left: 20%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 720px;
+  background-color: #FFF;
+  margin-top: 200px;
+}
+
+.main img {
+  max-width: 50%;
+}
